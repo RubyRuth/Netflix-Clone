@@ -1,0 +1,247 @@
+*,
+html,
+::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.firstsection{
+    border-bottom: 5px solid #000000;
+    max-width: 2000px;
+    background-color: #000000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.85)
+      ),
+      url(background.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.headflex{
+    display: flex;
+    gap: 900px;
+}
+#netlogo{
+    margin-left: 40px;
+    height: 100px;
+    width: 170px;
+}
+#signbutton{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+}
+.sectionfirst{
+    margin: 50px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 800px;
+    text-align: center;
+}
+.centertext{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+#textemail{
+    height: 60px;
+    width: 500px;
+    padding: 10px 10px;
+}
+#startbutton{
+    height: 60px;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+}
+.secondsection{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    font-size: 26px;
+}   
+.sectionsecond{
+    margin-left: 100px;
+    width: 605px;
+} 
+.vid-image{
+    position: relative;
+    margin-top: 30px;
+   margin-right: 100px;
+}
+video{
+    position: absolute;
+    left: 50px;
+    top: 45px;
+}
+.firstsection,
+.secondsection,
+.thirdsection,
+.fourthsection,
+.fifthsection,
+.sixthsection,
+.seventhsection{
+  border-bottom: 7px solid #303030;
+  background-color: #000000;
+  color: #fff;
+}
+.thirdsection{
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+}
+#strangetext{
+  font-size: 16px;
+  font-weight: bolder;  
+}
+#downloadtext{
+    color: blue;
+}
+.storycard{
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 388px;
+    height: 90px;
+    position: absolute;
+    top: 370px;
+    left: 130px;
+    background-color: #000000;
+}
+#gifpic{
+  margin-top: 16px;
+  margin-left: 100px;
+}
+.bestext{
+  margin-left: 20px;
+}
+#boxshot{
+   margin-left: 20px;
+   margin-top: 7px;
+}
+.sectionthird{
+    width: 500px;
+    margin-top: 150px;
+    font-size: 26px;
+}
+.fourthsection{
+  display: flex;
+}
+.fifthsection{
+    display: flex;
+}
+.sectionfourth{
+    font-size: 26px;
+    width: 650px;
+    margin-left: 100px;
+}
+.sectionfifth{
+    margin-top: 100px;
+    font-size: 26px;
+}
+.sixthsection{
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+}
+.faqtext{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+}
+.sectionsixth{
+    width: 900px;
+    text-align: start;
+}
+details > summary{
+    list-style-type: none;
+}
+
+#pluspic-1{padding-left: 250px;}
+#pluspic-2{padding-left: 100px;}
+#pluspic-3{padding-left: 200px;}
+#pluspic-4{padding-left: 230px;}
+#pluspic-5{padding-left: 100px;}
+#pluspic-6{padding-left: 150px;}
+
+#flexdiv{
+    display: flex;
+    margin-bottom: 80px;
+}
+#membership{
+    margin-top: 70px;
+}
+.textdetails{
+    background-color: #303030;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 900px;
+}
+.textsummary{
+    background-color: #303030;
+    font-size: 26px;
+    height: 70px;
+    border-bottom: 7px solid #000000;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 900px;
+    text-align: start;
+    display: flex;
+    gap: 300px;
+}
+div.sectionseventh{
+    display: flex;
+     justify-content: space-between;
+     margin-right: 450px;
+}
+.seventhsection{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.349);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.lastext{
+    margin-top: 50px;
+    padding: 5px 50px;
+}
+.footer{
+    margin: 5px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.finaltext{
+    padding: 5px 50px;
+}
+.footersection{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 7px solid #303030;
+    background-color: #000000;
+    color: #817b7bc4;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+}
